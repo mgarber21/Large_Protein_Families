@@ -1,0 +1,120 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    jupyter (AVX, FMA3, 503 GB RAM)
+Command: /opt/iqtree/iqtree-1.6.12-Linux/bin/iqtree -s /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta -m LG+G4 -bb 1000 -redo
+Seed:    551154 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Sep 18 14:00:33 2022
+Kernel:  AVX+FMA - 1 threads (64 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 64 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 116 sites contain only gaps or ambiguous characters.
+Alignment has 14 sequences with 227 columns, 101 distinct patterns
+78 parsimony-informative, 9 singleton sites, 140 constant sites
+                                Gap/Ambiguity  Composition  p-value
+   1  GCF_000421265.1-K355_RS0119855   55.95%    passed     89.47%
+   2  GCF_000423645.1-G568_RS0115095   52.42%    passed     97.28%
+   3  GCF_000423645.1-G568_RS0108480   51.54%    passed     69.82%
+   4  GCF_000169415.1-SSE37_RS08100    51.54%    passed     97.46%
+   5  GCF_000169415.1-SSE37_RS16260    52.42%    passed     94.66%
+   6  GCF_000442315.1-RUTHE_RS05685    51.54%    passed     99.87%
+   7  GCF_001870665.2-BG454_RS16400    51.98%    passed     90.64%
+   8  GCF_001870665.2-BG454_RS09765    51.98%    passed     99.95%
+   9  GCF_900110775.1-BSF79_RS18365    51.54%    passed     96.14%
+  10  GCF_900110775.1-BSF79_RS15930    51.98%    passed     99.23%
+  11  GCF_001687365.1-ADU59_RS19520    51.98%    passed     98.31%
+  12  GCF_001687365.1-ADU59_RS12685    51.54%    passed     84.08%
+  13  GCF_000374005.1-B152_RS0108145   51.10%    passed     41.46%
+  14  GCF_002208825.2-CEP68_RS17635    51.54%    passed     77.56%
+WARNING: 14 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                            52.08%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 551154)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2024.728
+2. Current log-likelihood: -1959.517
+3. Current log-likelihood: -1959.112
+Optimal log-likelihood: -1959.106
+Gamma shape alpha: 0.796
+Parameters optimization took 3 rounds (0.090 sec)
+Computing ML distances based on estimated model parameters... 0.105 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -1960.028
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.105 second
+Computing log-likelihood of 98 initial trees ... 1.315 seconds
+Current best score: -1957.050
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1952.857
+Iteration 10 / LogL: -1960.334 / Time: 0h:0m:2s
+Iteration 20 / LogL: -1952.917 / Time: 0h:0m:3s
+Finish initializing candidate tree set (5)
+Current best tree score: -1952.857 / CPU time: 3.122
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1959.153 / Time: 0h:0m:4s (0h:0m:10s left)
+Iteration 40 / LogL: -1952.953 / Time: 0h:0m:5s (0h:0m:8s left)
+Iteration 50 / LogL: -1953.070 / Time: 0h:0m:6s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -1971.107
+Iteration 60 / LogL: -1959.130 / Time: 0h:0m:7s (0h:0m:5s left)
+Iteration 70 / LogL: -1952.899 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 80 / LogL: -1959.354 / Time: 0h:0m:9s (0h:0m:2s left)
+Iteration 90 / LogL: -1952.868 / Time: 0h:0m:10s (0h:0m:1s left)
+Iteration 100 / LogL: -1952.921 / Time: 0h:0m:12s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -1971.938
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:12s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1952.857
+Optimal log-likelihood: -1952.857
+Gamma shape alpha: 0.760
+Parameters optimization took 1 rounds (0.021 sec)
+BEST SCORE FOUND : -1952.857
+Creating bootstrap support values...
+Split supports printed to NEXUS file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.splits.nex
+Total tree length: 5.880
+
+Total number of iterations: 102
+CPU time used for tree search: 11.955 sec (0h:0m:11s)
+Wall-clock time used for tree search: 11.979 sec (0h:0m:11s)
+Total CPU time used: 12.268 sec (0h:0m:12s)
+Total wall-clock time used: 12.310 sec (0h:0m:12s)
+
+Computing bootstrap consensus tree...
+Reading input file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.splits.nex...
+14 taxa and 103 splits.
+Consensus tree written to /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.contree
+Reading input trees file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.contree
+Log-likelihood of consensus tree: -1952.857
+
+Analysis results written to: 
+  IQ-TREE report:                /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.iqtree
+  Maximum-likelihood tree:       /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.treefile
+  Likelihood distances:          /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.splits.nex
+  Consensus tree:                /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.contree
+  Screen log file:               /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta.log
+
+Date and Time: Sun Sep 18 14:00:45 2022

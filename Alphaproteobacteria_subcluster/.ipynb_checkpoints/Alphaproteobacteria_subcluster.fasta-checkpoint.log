@@ -1,0 +1,93 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    jupyter (AVX, FMA3, 503 GB RAM)
+Command: /opt/iqtree/iqtree-1.6.12-Linux/bin/iqtree -s /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster.fasta -m LG+G4 -bb 1000 -redo
+Seed:    489060 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 15 13:32:15 2022
+Kernel:  AVX+FMA - 1 threads (64 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 64 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 114 sites contain only gaps or ambiguous characters.
+Alignment has 28 sequences with 227 columns, 113 distinct patterns
+98 parsimony-informative, 6 singleton sites, 123 constant sites
+                                Gap/Ambiguity  Composition  p-value
+   1  GCF_000421265.1-K355_RS0119855   55.95%    passed     70.59%
+   2  GCF_000021325.1-GDIA_RS09815     51.54%    passed     81.35%
+   3  GCF_000423645.1-G568_RS0115095   52.42%    passed     81.16%
+   4  GCF_000423645.1-G568_RS0108480   51.54%    passed     86.36%
+   5  GCF_000169415.1-SSE37_RS08100    51.54%    passed     99.88%
+   6  GCF_000169415.1-SSE37_RS16260    52.42%    passed     73.90%
+   7  GCF_000442315.1-RUTHE_RS05685    51.54%    passed     94.67%
+   8  GCF_001870665.2-BG454_RS16400    51.98%    passed     92.31%
+   9  GCF_001870665.2-BG454_RS09765    51.98%    passed     99.37%
+  10  GCF_900110775.1-BSF79_RS18365    51.54%    passed     98.39%
+  11  GCF_900110775.1-BSF79_RS15930    51.98%    passed     86.23%
+  12  GCF_000017565.1-PLAV_RS12075     51.98%    passed     61.46%
+  13  GCF_000017565.1-PLAV_RS12070     51.54%    passed     85.64%
+  14  GCF_000017565.1-PLAV_RS11965     51.10%    passed     95.69%
+  15  GCF_000017565.1-PLAV_RS11955     51.54%    passed     97.14%
+  16  GCF_000017565.1-PLAV_RS10335     51.54%    passed     70.04%
+  17  GCF_000017565.1-PLAV_RS05525     51.98%    passed     28.62%
+  18  GCF_001687365.1-ADU59_RS19520    51.98%    passed     97.66%
+  19  GCF_001687365.1-ADU59_RS12685    51.54%    passed     84.70%
+  20  GCF_001687365.1-ADU59_RS05750    51.10%    passed     75.08%
+  21  GCF_000385335.1-A3OQ_RS0103935   51.10%    passed     99.82%
+  22  GCF_900168195.1-B5Y19_RS10715    51.10%    passed     86.36%
+  23  GCF_900168195.1-B5Y19_RS10675    51.10%    passed     93.95%
+  24  GCF_900168195.1-B5Y19_RS10665    51.98%    passed     99.09%
+  25  GCF_000374005.1-B152_RS0109090   51.10%    passed     30.01%
+  26  GCF_000374005.1-B152_RS0108145   51.10%    passed     31.81%
+  27  GCF_002208825.2-CEP68_RS27755    51.10%    passed     98.12%
+  28  GCF_002208825.2-CEP68_RS17635    51.54%    passed     86.79%
+WARNING: 28 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                            51.75%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 489060)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4609.745
+2. Current log-likelihood: -4468.188
+3. Current log-likelihood: -4463.237
+Optimal log-likelihood: -4463.147
+Gamma shape alpha: 1.164
+Parameters optimization took 3 rounds (0.229 sec)
+Computing ML distances based on estimated model parameters... 0.410 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -4444.163
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.339 second
+Computing log-likelihood of 98 initial trees ... 3.208 seconds
+Current best score: -4439.076
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4434.363
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -4433.350
+Iteration 10 / LogL: -4433.350 / Time: 0h:0m:7s
+Iteration 20 / LogL: -4434.307 / Time: 0h:0m:10s
+Finish initializing candidate tree set (6)
+Current best tree score: -4433.350 / CPU time: 10.208
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -4434.364 / Time: 0h:0m:15s (0h:0m:42s left)
+Iteration 40 / LogL: -4433.351 / Time: 0h:0m:19s (0h:0m:35s left)
+Iteration 50 / LogL: -4434.363 / Time: 0h:0m:24s (0h:0m:29s left)
+Log-likelihood cutoff on original alignment: -4465.223
+Iteration 60 / LogL: -4434.051 / Time: 0h:0m:28s (0h:0m:23s left)
+Iteration 70 / LogL: -4433.676 / Time: 0h:0m:32s (0h:0m:18s left)
+UPDATE BEST LOG-LIKELIHOOD: -4433.350
+Iteration 80 / LogL: -4433.350 / Time: 0h:0m:36s (0h:0m:13s left)

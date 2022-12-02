@@ -1,0 +1,231 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model4.afa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 446051
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 29 sequences with 441 nucleotide sites
+Number of constant sites: 101 (= 22.9025% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 101 (= 22.9025% of all sites)
+Number of parsimony informative sites: 285
+Number of distinct site patterns: 363
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+I+G4
+
+Rate parameter R:
+
+  A-C: 3.3839
+  A-G: 5.0953
+  A-T: 2.0526
+  C-G: 4.4934
+  C-T: 5.0953
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1943
+  pi(C) = 0.2876
+  pi(G) = 0.3115
+  pi(T) = 0.2067
+
+Rate matrix Q:
+
+  A    -1.106    0.3605    0.5881    0.1572
+  C    0.2436    -1.152    0.5186    0.3902
+  G    0.3667    0.4788   -0.9221   0.07658
+  T    0.1477    0.5429    0.1154    -0.806
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.08365
+Gamma shape alpha: 1.505
+
+ Category  Relative_rate  Proportion
+  0         0              0.08365
+  1         0.2467         0.2291
+  2         0.6432         0.2291
+  3         1.147          0.2291
+  4         2.329          0.2291
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -8881.7738 (s.e. 294.1362)
+Unconstrained log-likelihood (without tree): -2518.0427
+Number of free parameters (#branches + #model parameters): 64
+Akaike information criterion (AIC) score: 17891.5476
+Corrected Akaike information criterion (AICc) score: 17913.6753
+Bayesian information criterion (BIC) score: 18153.2465
+
+Total tree length (sum of branch lengths): 13.3697
+Sum of internal branch lengths: 3.3887 (25.3458% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCF_000169415-1-SSE37_RS08100' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                +------------------GCF_000421265.1-K355_RS0117460
+   +------------| (100)
+   |            |                        +-------------GCF_000021325-1-GDIA_RS09815
+   |            |                     +--| (43)
+   |            |                     |  +-------------GCF_000017565-1-PLAV_RS12070
+   |            |                  +--| (36)
+   |            |                  |  +---------------GCF_001687365-1-ADU59_RS05750
+   |            |               +--| (31)
+   |            |               |  |       +-----GCF_000017565-1-PLAV_RS11955
+   |            |               |  +-------| (100)
+   |            |               |          +-------GCF_900168195-1-B5Y19_RS10665
+   |            |            +--| (27)
+   |            |            |  |        +-------GCF_000017565-1-PLAV_RS11965
+   |            |            |  +--------| (100)
+   |            |            |           +-------GCF_900168195-1-B5Y19_RS10675
+   |            |         +--| (72)
+   |            |         |  |         +----------------GCF_000017565-1-PLAV_RS12075
+   |            |         |  |  +------| (93)
+   |            |         |  |  |      +--------------------GCF_000017565-1-PLAV_RS05525
+   |            |         |  +--| (69)
+   |            |         |     |      +--------GCF_900168195-1-B5Y19_RS10715
+   |            |         |     +------| (98)
+   |            |         |            +-------------------GCF_000374005-1-B152_RS0109090
+   |            |  +------| (100)
+   |            |  |      |  +----------GCF_000017565-1-PLAV_RS10335
+   |            |  |      +--| (41)
+   |            |  |         |  +---------GCF_000385335-1-A3OQ_RS0103935
+   |            |  |         +--| (67)
+   |            |  |            +----------------GCF_002208825-2-CEP68_RS27755
+   |            +--| (50)
+   |               |                +--GCF_000423645-1-G568_RS0115095
+   |               |            +---| (98)
+   |               |            |   |  +--GCF_900110775-1-BSF79_RS15930
+   |               |            |   +--| (77)
+   |               |            |      |  +--GCF_000169415-1-SSE37_RS16260
+   |               |            |      +--| (78)
+   |               |            |         +----GCF_000442315-1-RUTHE_RS05685
+   |               |        +---| (96)
+   |               |        |   +-------GCF_001870665-2-BG454_RS09765
+   |               |     +--| (59)
+   |               |     |  |  +---------GCF_000421265-1-K355_RS0119855
+   |               |     |  +--| (82)
+   |               |     |     +-------------GCF_000374005-1-B152_RS0108145
+   |               |  +--| (51)
+   |               |  |  |   +---------GCF_001870665-2-BG454_RS16400
+   |               |  |  +---| (58)
+   |               |  |      +-----GCF_001687365-1-ADU59_RS19520
+   |               +--| (52)
+   |                  |  +-------------GCF_002208825-2-CEP68_RS17635
+   |                  +--| (87)
+   |                     +-----GCF_001687365-1-ADU59_RS12685
++--| (90)
+|  +--GCF_000423645-1-G568_RS0108480
+|
++----GCF_000169415-1-SSE37_RS08100
+|
++----GCF_900110775-1-BSF79_RS18365
+
+Tree in newick format:
+
+(((GCF_000421265.1-K355_RS0117460:0.6358523252,(((((((GCF_000021325-1-GDIA_RS09815:0.4815769001,GCF_000017565-1-PLAV_RS12070:0.4570051948)43:0.0794851307,GCF_001687365-1-ADU59_RS05750:0.5502809625)36:0.0777552233,(GCF_000017565-1-PLAV_RS11955:0.1961612053,GCF_900168195-1-B5Y19_RS10665:0.2704579158)100:0.2737143562)31:0.0220172523,(GCF_000017565-1-PLAV_RS11965:0.2650127500,GCF_900168195-1-B5Y19_RS10675:0.2802533239)100:0.3227545982)27:0.0114823832,((GCF_000017565-1-PLAV_RS12075:0.5816700902,GCF_000017565-1-PLAV_RS05525:0.6947445511)93:0.2558764923,(GCF_900168195-1-B5Y19_RS10715:0.3093365986,GCF_000374005-1-B152_RS0109090:0.6585925085)98:0.2412631190)69:0.0890141494)72:0.1051372080,(GCF_000017565-1-PLAV_RS10335:0.3723601782,(GCF_000385335-1-A3OQ_RS0103935:0.3380657337,GCF_002208825-2-CEP68_RS27755:0.5591159787)67:0.0810357400)41:0.0856904035)100:0.2482776988,(((((GCF_000423645-1-G568_RS0115095:0.0832580290,(GCF_900110775-1-BSF79_RS15930:0.0786954902,(GCF_000169415-1-SSE37_RS16260:0.1273468345,GCF_000442315-1-RUTHE_RS05685:0.1886321460)78:0.0507678383)77:0.0413109919)98:0.1318789876,GCF_001870665-2-BG454_RS09765:0.2863509815)96:0.1582494622,(GCF_000421265-1-K355_RS0119855:0.3402248389,GCF_000374005-1-B152_RS0108145:0.4837408430)82:0.1223395233)59:0.0366408724,(GCF_001870665-2-BG454_RS16400:0.3424067519,GCF_001687365-1-ADU59_RS19520:0.2215501792)58:0.1340244829)51:0.0875117416,(GCF_002208825-2-CEP68_RS17635:0.4876260631,GCF_001687365-1-ADU59_RS12685:0.2224222889)87:0.1212556637)52:0.0459505620)50:0.0351843708)100:0.4559183454,GCF_000423645-1-G568_RS0108480:0.1127164792)90:0.0741187396,GCF_000169415-1-SSE37_RS08100:0.1869314349,GCF_900110775-1-BSF79_RS18365:0.1686372203);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -8882.449452
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                +-----------------GCF_000421265.1-K355_RS0117460
+   +------------| (100)
+   |            |              +---------------GCF_000021325-1-GDIA_RS09815
+   |            |           +--| (72)
+   |            |           |  |               +----------------GCF_000017565-1-PLAV_RS12075
+   |            |           |  |        +------| (93)
+   |            |           |  |        |      +-------------------GCF_000017565-1-PLAV_RS05525
+   |            |           |  |     +--| (69)
+   |            |           |  |     |  |      +--------GCF_900168195-1-B5Y19_RS10715
+   |            |           |  |     |  +------| (98)
+   |            |           |  |     |         +------------------GCF_000374005-1-B152_RS0109090
+   |            |           |  |  +--| (40)
+   |            |           |  |  |  |     +-------------GCF_000017565-1-PLAV_RS12070
+   |            |           |  |  |  |  +--| (40)
+   |            |           |  |  |  |  |  +--------------GCF_001687365-1-ADU59_RS05750
+   |            |           |  |  |  +--| (46)
+   |            |           |  |  |     |      +-----GCF_000017565-1-PLAV_RS11955
+   |            |           |  |  |     +------| (100)
+   |            |           |  |  |            +------GCF_900168195-1-B5Y19_RS10665
+   |            |           |  +--| (30)
+   |            |           |     |        +------GCF_000017565-1-PLAV_RS11965
+   |            |           |     +--------| (100)
+   |            |           |              +-------GCF_900168195-1-B5Y19_RS10675
+   |            |        +--| (49)
+   |            |        |  +----------GCF_000017565-1-PLAV_RS10335
+   |            |  +-----| (100)
+   |            |  |     |  +---------GCF_000385335-1-A3OQ_RS0103935
+   |            |  |     +--| (67)
+   |            |  |        +---------------GCF_002208825-2-CEP68_RS27755
+   |            +--| (50)
+   |               |               +--GCF_000423645-1-G568_RS0115095
+   |               |            +--| (98)
+   |               |            |  |  +--GCF_900110775-1-BSF79_RS15930
+   |               |            |  +--| (77)
+   |               |            |     |  +--GCF_000169415-1-SSE37_RS16260
+   |               |            |     +--| (78)
+   |               |            |        +----GCF_000442315-1-RUTHE_RS05685
+   |               |        +---| (96)
+   |               |        |   +-------GCF_001870665-2-BG454_RS09765
+   |               |     +--| (59)
+   |               |     |  |  +---------GCF_000421265-1-K355_RS0119855
+   |               |     |  +--| (82)
+   |               |     |     +-------------GCF_000374005-1-B152_RS0108145
+   |               |  +--| (51)
+   |               |  |  |   +---------GCF_001870665-2-BG454_RS16400
+   |               |  |  +---| (58)
+   |               |  |      +-----GCF_001687365-1-ADU59_RS19520
+   |               +--| (52)
+   |                  |  +-------------GCF_002208825-2-CEP68_RS17635
+   |                  +--| (87)
+   |                     +-----GCF_001687365-1-ADU59_RS12685
++--| (90)
+|  +--GCF_000423645-1-G568_RS0108480
+|
++----GCF_000169415-1-SSE37_RS08100
+|
++---GCF_900110775-1-BSF79_RS18365
+
+
+Consensus tree in newick format: 
+
+(((GCF_000421265.1-K355_RS0117460:0.6341954667,((((GCF_000021325-1-GDIA_RS09815:0.5711685154,((((GCF_000017565-1-PLAV_RS12075:0.5922254922,GCF_000017565-1-PLAV_RS05525:0.6930142622)93:0.2616989403,(GCF_900168195-1-B5Y19_RS10715:0.3059979306,GCF_000374005-1-B152_RS0109090:0.6678031735)98:0.2427271703)69:0.0822238111,((GCF_000017565-1-PLAV_RS12070:0.4906952487,GCF_001687365-1-ADU59_RS05750:0.5149099188)40:0.0872944936,(GCF_000017565-1-PLAV_RS11955:0.2029248465,GCF_900168195-1-B5Y19_RS10665:0.2655933428)100:0.2532288999)46:0.0596895167)40:0.0216495377,(GCF_000017565-1-PLAV_RS11965:0.2660491691,GCF_900168195-1-B5Y19_RS10675:0.2794327071)100:0.3218365770)30:0.0387557712)72:0.0453333030,GCF_000017565-1-PLAV_RS10335:0.4046409102)49:0.0806926808,(GCF_000385335-1-A3OQ_RS0103935:0.3473955429,GCF_002208825-2-CEP68_RS27755:0.5597288270)67:0.1033764020)100:0.2335353322,(((((GCF_000423645-1-G568_RS0115095:0.0829506968,(GCF_900110775-1-BSF79_RS15930:0.0792097813,(GCF_000169415-1-SSE37_RS16260:0.1277205201,GCF_000442315-1-RUTHE_RS05685:0.1892432290)78:0.0500430865)77:0.0414474053)98:0.1298816454,GCF_001870665-2-BG454_RS09765:0.2892367411)96:0.1635602485,(GCF_000421265-1-K355_RS0119855:0.3422320336,GCF_000374005-1-B152_RS0108145:0.4823026457)82:0.1180547229)59:0.0369283866,(GCF_001870665-2-BG454_RS16400:0.3425069889,GCF_001687365-1-ADU59_RS19520:0.2228576437)58:0.1360467924)51:0.0915337312,(GCF_002208825-2-CEP68_RS17635:0.4879342211,GCF_001687365-1-ADU59_RS12685:0.2182327822)87:0.1198613418)52:0.0425048666)50:0.0360595688)100:0.4602177573,GCF_000423645-1-G568_RS0108480:0.1129500928)90:0.0745284078,GCF_000169415-1-SSE37_RS08100:0.1877941905,GCF_900110775-1-BSF79_RS18365:0.1677509408);
+
+TIME STAMP
+----------
+
+Date and time: Fri Aug 19 08:53:06 2022
+Total CPU time used: 23.094342 seconds (0h:0m:23s)
+Total wall-clock time used: 23.18242407 seconds (0h:0m:23s)
+

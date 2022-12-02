@@ -1,0 +1,65 @@
+,accession,version,version_number,genbank_accession,genbank_version,biosample,superkingdom,phylum,class,order,family,genus,species,strain,biosample_id
+0,GCF_000020965,GCF_000020965.1,1,GCA_000020965,GCA_000020965.1,SAMN02603928,Bacteria,Dictyoglomi,Dictyoglomia,Dictyoglomales,Dictyoglomaceae,Dictyoglomus,Dictyoglomus thermophilum,H-6-12,2603928
+1,GCF_000012885,GCF_000012885.1,1,GCA_000012885,GCA_000012885.1,SAMN02598295,Bacteria,Proteobacteria,Deltaproteobacteria,Desulfuromonadales,Desulfuromonadaceae,Pelobacter,Pelobacter carbinolicus,DSM 2380,2598295
+2,GCF_000165715,GCF_000165715.2,2,GCA_000165715,GCA_000165715.3,SAMN00103628,Bacteria,Planctomycetes,Planctomycetia,Planctomycetales,Planctomycetaceae,Rubinisphaera,Rubinisphaera brasiliensis,DSM 5305,103628
+3,GCF_000186345,GCF_000186345.1,1,GCA_000186345,GCA_000186345.1,SAMN00138929,Bacteria,Planctomycetes,Planctomycetia,Planctomycetales,Isosphaeraceae,Isosphaera,Isosphaera pallida,ATCC 43644,138929
+4,GCF_000008685,GCF_000008685.2,2,GCA_000008685,GCA_000008685.2,SAMN02603966,Bacteria,Spirochaetes,Spirochaetia,Spirochaetales,Borreliaceae,Borreliella,Borreliella burgdorferi,B31,2603966
+5,GCF_000284315,GCF_000284315.1,1,GCA_000284315,GCA_000284315.1,SAMD00061058,Bacteria,Nitrospirae,Nitrospira,Nitrospirales,Nitrospiraceae,Leptospirillum,Leptospirillum ferrooxidans,C2-3,5831861
+6,GCF_002024185,GCF_002024185.1,1,GCA_002024185,GCA_002024185.1,SAMN06456893,Bacteria,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter coli,,6456893
+7,GCF_000006765,GCF_000006765.1,1,GCA_000006765,GCA_000006765.1,SAMN02603714,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas aeruginosa,PAO1,2603714
+8,GCF_000007565,GCF_000007565.2,2,GCA_000007565,GCA_000007565.2,SAMN02603999,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas putida,KT2440,2603999
+9,GCF_000008725,GCF_000008725.1,1,GCA_000008725,GCA_000008725.1,SAMN02603114,Bacteria,Chlamydiae,Chlamydiia,Chlamydiales,Chlamydiaceae,Chlamydia,Chlamydia trachomatis,D/UW-3/CX,2603114
+10,GCF_000012845,GCF_000012845.1,1,GCA_000012845,GCA_000012845.1,SAMN02604310,Bacteria,Bacteroidetes,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,Parabacteroides distasonis,ATCC 8503,2604310
+11,GCF_000146505,GCF_000146505.1,1,GCA_000146505,GCA_000146505.1,SAMN02603971,Bacteria,Fibrobacteres,Fibrobacteria,Fibrobacterales,Fibrobacteraceae,Fibrobacter,Fibrobacter succinogenes,subsp. succinogenes S85,2603971
+12,GCF_000025925,GCF_000025925.1,1,GCA_000025925,GCA_000025925.1,SAMN02604020,Bacteria,Bacteroidetes,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella ruminicola,23,2604020
+13,GCF_000158195,GCF_000158195.2,2,GCA_000158195,GCA_000158195.2,SAMN02463687,Bacteria,Fusobacteria,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium mortiferum,ATCC 9817,12520987
+14,GCF_000009145,GCF_000009145.1,1,GCA_000009145,GCA_000009145.1,SAMEA3138193,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosomonas,Nitrosomonas europaea,ATCC 19718,3215639
+15,GCF_000010785,GCF_000010785.1,1,GCA_000010785,GCA_000010785.1,SAMD00060961,Bacteria,Aquificae,Aquificae,Aquificales,Aquificaceae,Hydrogenobacter,Hydrogenobacter thermophilus,TK-6,5831764
+16,GCF_000265505,GCF_000265505.1,1,GCA_000265505,GCA_000265505.1,SAMN02261370,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Bernardetiaceae,Bernardetia,Bernardetia litoralis,DSM 6794,2261370
+17,GCF_000015585,GCF_000015585.1,1,GCA_000015585,GCA_000015585.1,SAMN00623046,Bacteria,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Halorhodospira,Halorhodospira halophila,SL1,623046
+18,GCF_000020465,GCF_000020465.1,1,GCA_000020465,GCA_000020465.1,SAMN02598270,Bacteria,Chlorobi,Chlorobia,Chlorobiales,Chlorobiaceae,Chlorobium,Chlorobium limicola,DSM 245,2598270
+19,GCF_000008565,GCF_000008565.1,1,GCA_000008565,GCA_000008565.1,SAMN02603976,Bacteria,Deinococcus-Thermus,Deinococci,Deinococcales,Deinococcaceae,Deinococcus,Deinococcus radiodurans,R1,2603976
+20,GCF_000196735,GCF_000196735.1,1,GCA_000196735,GCA_000196735.1,SAMEA2272088,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus amyloliquefaciens,DSM 7,2483776
+21,GCF_000145615,GCF_000145615.1,1,GCA_000145615,GCA_000145615.1,SAMN00002542,Bacteria,Firmicutes,Clostridia,Thermoanaerobacterales,Thermoanaerobacterales Family III. Incertae Sedis,Thermoanaerobacterium,Thermoanaerobacterium thermosaccharolyticum,DSM 571,2542
+22,GCF_000734015,GCF_000734015.1,1,GCA_000734015,GCA_000734015.1,SAMN02934663,Bacteria,Thermodesulfobacteria,Thermodesulfobacteria,Thermodesulfobacteriales,Thermodesulfobacteriaceae,Thermodesulfobacterium,Thermodesulfobacterium commune,DSM 2178,2934663
+23,GCF_000308635,GCF_000308635.1,1,GCA_000308635,GCA_000308635.1,SAMD00041819,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Nocardiaceae,Nocardia,Nocardia otitidiscaviarum,NBRC 14405,4157942
+24,GCF_000024985,GCF_000024985.1,1,GCA_000024985,GCA_000024985.1,SAMN02598446,Bacteria,Chloroflexi,Thermomicrobia,Sphaerobacterales,Sphaerobacteraceae,Sphaerobacter,Sphaerobacter thermophilus,DSM 20745,2598446
+25,GCF_000018785,GCF_000018785.1,1,GCA_000018785,GCA_000018785.1,SAMN02603756,Bacteria,Tenericutes,Mollicutes,Acholeplasmatales,Acholeplasmataceae,Acholeplasma,Acholeplasma laidlawii,PG-8A,2603756
+26,GCF_000165465,GCF_000165465.1,1,GCA_000165465,GCA_000165465.1,SAMN00103629,Bacteria,Firmicutes,Clostridia,Halanaerobiales,Halanaerobiaceae,Halanaerobium,Halanaerobium praevalens,DSM 2228,103629
+27,GCF_000008545,GCF_000008545.1,1,GCA_000008545,GCA_000008545.1,SAMN02603986,Bacteria,Thermotogae,Thermotogae,Thermotogales,Thermotogaceae,Thermotoga,Thermotoga maritima,MSB8,2603986
+28,GCF_000212735,GCF_000212735.1,1,GCA_000212735,GCA_000212735.1,SAMN00713614,Bacteria,Bacteroidetes,Saprospiria,Saprospirales,Haliscomenobacteraceae,Haliscomenobacter,Haliscomenobacter hydrossis,DSM 1100,713614
+29,GCF_000218625,GCF_000218625.1,1,GCA_000218625,GCA_000218625.1,SAMN02232022,Bacteria,Deferribacteres,Deferribacteres,Deferribacterales,Deferribacteraceae,Flexistipes,Flexistipes sinusarabici,DSM 4947,2232022
+30,GCF_000712295,GCF_000712295.1,1,GCA_000712295,GCA_000712295.1,SAMN02737376,Bacteria,Synergistetes,Synergistia,Synergistales,Synergistaceae,Synergistes,Synergistes jonesii,,2737376
+31,GCF_000497245,GCF_000497245.1,1,GCA_000497245,GCA_000497245.1,SAMN02469411,Bacteria,Firmicutes,Bacilli,Bacillales,Sporolactobacillaceae,Sporolactobacillus,Sporolactobacillus laevolacticus,DSM 442,2469411
+32,GCF_000022565,GCF_000022565.1,1,GCA_000022565,GCA_000022565.1,SAMN02603447,Bacteria,Acidobacteria,Acidobacteriia,Acidobacteriales,Acidobacteriaceae,Acidobacterium,Acidobacterium capsulatum,ATCC 51196,2603447
+33,GCF_000020945,GCF_000020945.1,1,GCA_000020945,GCA_000020945.1,SAMN02603927,Bacteria,Coprothermobacterota,Coprothermobacteria,Coprothermobacterales,Coprothermobacteraceae,Coprothermobacter,Coprothermobacter proteolyticus,DSM 5265,2603927
+34,GCF_000341545,GCF_000341545.2,2,GCA_000341545,GCA_000341545.2,SAMEA2272521,Bacteria,Nitrospinae,Nitrospinia,Nitrospinales,Nitrospinaceae,Nitrospina,Nitrospina gracilis,3/211,2484169
+35,GCF_000024925,GCF_000024925.1,1,GCA_000024925,GCA_000024925.1,SAMN02598426,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Sanguibacteraceae,Sanguibacter,Sanguibacter keddieii,DSM 10542,2598426
+36,GCF_000011905,GCF_000011905.1,1,GCA_000011905,GCA_000011905.1,SAMN02603990,Bacteria,Chloroflexi,Dehalococcoidia,Dehalococcoidales,Dehalococcoidaceae,Dehalococcoides,Dehalococcoides mccartyi,195,2603990
+37,GCF_000379805,GCF_000379805.1,1,GCA_000379805,GCA_000379805.1,SAMN02256444,Bacteria,Bacteroidetes,Saprospiria,Saprospirales,Lewinellaceae,Lewinella,Lewinella cohaerens,DSM 23179,2256444
+38,GCF_001306135,GCF_001306135.1,1,GCA_001306135,GCA_001306135.1,SAMN03274862,Bacteria,Chloroflexi,Chloroflexia,Herpetosiphonales,Herpetosiphonaceae,Herpetosiphon,Herpetosiphon geysericola,,3274862
+39,GCF_900099695,GCF_900099695.1,1,GCA_900099695,GCA_900099695.1,SAMN05660652,Bacteria,Proteobacteria,Betaproteobacteria,Rhodocyclales,Rhodocyclaceae,Propionivibrio,Propionivibrio dicarboxylicus,,5660652
+40,GCF_000210915,GCF_000210915.2,2,GCA_000210915,GCA_000210915.2,SAMEA3138385,Bacteria,Proteobacteria,Oligoflexia,Bacteriovoracales,Halobacteriovoraceae,Halobacteriovorax,Halobacteriovorax marinus,SJ,3215831
+41,GCF_000019965,GCF_000019965.1,1,GCA_000019965,GCA_000019965.1,SAMN00000285,Bacteria,Verrucomicrobia,Opitutae,Opitutales,Opitutaceae,Opitutus,Opitutus terrae,PB90-1,285
+42,GCF_000017805,GCF_000017805.1,1,GCA_000017805,GCA_000017805.1,SAMN02598306,Bacteria,Chloroflexi,Chloroflexia,Chloroflexales,Roseiflexaceae,Roseiflexus,Roseiflexus castenholzii,DSM 13941,2598306
+43,GCF_000281175,GCF_000281175.1,1,GCA_000281175,GCA_000281175.1,SAMD00061033,Bacteria,Chloroflexi,Caldilineae,Caldilineales,Caldilineaceae,Caldilinea,Caldilinea aerophila,DSM 14535 = NBRC 104270,5831836
+44,GCF_000018105,GCF_000018105.1,1,GCA_000018105,GCA_000018105.1,SAMN02604308,Bacteria,Cyanobacteria,,Synechococcales,Acaryochloridaceae,Acaryochloris,Acaryochloris marina,MBIC11017,2604308
+45,GCF_000482725,GCF_000482725.1,1,GCA_000482725,GCA_000482725.1,SAMN02440766,Bacteria,Proteobacteria,Gammaproteobacteria,Alteromonadales,Psychromonadaceae,Psychromonas,Psychromonas arctica,DSM 14288,2440766
+46,GCF_000010305,GCF_000010305.1,1,GCA_000010305,GCA_000010305.1,SAMD00060909,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,Gemmatimonas aurantiaca,T-27,5831712
+47,GCF_001886815,GCF_001886815.1,1,GCA_001886815,GCA_001886815.1,SAMN05946030,Bacteria,Calditrichaeota,Calditrichae,Calditrichales,Calditrichaceae,Caldithrix,Caldithrix abyssi,DSM 13497,5946030
+48,GCF_000020225,GCF_000020225.1,1,GCA_000020225,GCA_000020225.1,SAMN00138213,Bacteria,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,Akkermansiaceae,Akkermansia,Akkermansia muciniphila,ATCC BAA-835,138213
+49,GCF_000170755,GCF_000170755.1,1,GCA_000170755,GCA_000170755.1,SAMN02436148,Bacteria,Lentisphaerae,Lentisphaeria,Lentisphaerales,Lentisphaeraceae,Lentisphaera,Lentisphaera araneosa,HTCC2155,2436148
+50,GCF_000375465,GCF_000375465.1,1,GCA_000375465,GCA_000375465.1,SAMN02440413,Bacteria,Balneolaeota,Balneolia,Balneolales,Balneolaceae,Balneola,Balneola vulgaris,DSM 17893,2440413
+51,GCF_000519325,GCF_000519325.1,1,GCA_000519325,GCA_000519325.1,SAMN02584907,Bacteria,Actinobacteria,Thermoleophilia,Solirubrobacterales,Patulibacteraceae,Patulibacter,Patulibacter minatonensis,DSM 18081,2584907
+52,GCF_000024025,GCF_000024025.1,1,GCA_000024025,GCA_000024025.1,SAMN02598445,Bacteria,Actinobacteria,Actinobacteria,Catenulisporales,Catenulisporaceae,Catenulispora,Catenulispora acidiphila,DSM 44928,2598445
+53,GCF_000469585,GCF_000469585.1,1,GCA_000469585,GCA_000469585.1,SAMN02471296,Bacteria,Chrysiogenetes,Chrysiogenetes,Chrysiogenales,Chrysiogenaceae,Chrysiogenes,Chrysiogenes arsenatis,DSM 11915,2471296
+54,GCF_001904655,GCF_001904655.1,1,GCA_001904655,GCA_001904655.1,SAMN05890687,Bacteria,Cyanobacteria,,Chroococcales,Chroococcaceae,Chroogloeocystis,Chroogloeocystis siderophila,5.2 s.c.1,5890687
+55,GCF_000702445,GCF_000702445.1,1,GCA_000702445,GCA_000702445.1,SAMN02841143,Bacteria,Acidobacteria,Solibacteres,Solibacterales,Bryobacteraceae,Bryobacter,Bryobacter aggregatus,MPL3,2841143
+56,GCF_000817245,GCF_000817245.1,1,GCA_000817245,GCA_000817245.1,SAMN02996356,Bacteria,Verrucomicrobia,Methylacidiphilae,Methylacidiphilales,Methylacidiphilaceae,Methylacidiphilum,Methylacidiphilum kamchatkense,Kam1,2996356
+57,GCF_000427095,GCF_000427095.1,1,GCA_000427095,GCA_000427095.1,SAMEA2272150,Bacteria,Armatimonadetes,Chthonomonadetes,Chthonomonadales,Chthonomonadaceae,Chthonomonas,Chthonomonas calidirosea,T49,2483834
+58,GCF_000820845,GCF_000820845.2,2,GCA_000820845,GCA_000820845.2,SAMEA3158464,Bacteria,Acidobacteria,Blastocatellia,,Pyrinomonadaceae,Pyrinomonas,Pyrinomonas methylaliphatogenes,,3314530
+59,GCF_000284335,GCF_000284335.1,1,GCA_000284335,GCA_000284335.1,SAMD00061110,Bacteria,Caldiserica,Caldisericia,Caldisericales,Caldisericaceae,Caldisericum,Caldisericum exile,AZM16c01,5831913
+60,GCF_000279145,GCF_000279145.1,1,GCA_000279145,GCA_000279145.1,SAMN02603097,Bacteria,Ignavibacteriae,Ignavibacteria,Ignavibacteriales,Melioribacteraceae,Melioribacter,Melioribacter roseus,P3M-2,2603097
+61,GCF_001017655,GCF_001017655.1,1,GCA_001017655,GCA_001017655.1,SAMN03329217,Bacteria,Kiritimatiellaeota,Kiritimatiellae,Kiritimatiellales,Kiritimatiellaceae,Kiritimatiella,Kiritimatiella glycovorans,,3329217
+62,GCF_001027545,GCF_001027545.1,1,GCA_001027545,GCA_001027545.1,SAMN03771261,Bacteria,Elusimicrobia,Endomicrobia,Endomicrobiales,Endomicrobiaceae,Endomicrobium,Endomicrobium proavitum,,3771261
+63,GCF_000474745,GCF_000474745.1,1,GCA_000474745,GCA_000474745.1,SAMN02469433,Bacteria,Fibrobacteres,Chitinivibrionia,Chitinivibrionales,Chitinivibrionaceae,Chitinivibrio,Chitinivibrio alkaliphilus,ACht1,2469433

@@ -15,6 +15,11 @@ Contents:
   - SampledGenomes: All sampled genomes used in this study (be careful, theses can be overwritten)
   - SampledTCS: All sampled TCS with corresponding DB number from sampled genomes used in this study (be careful, theses can be overwritten)
   - Source_Files: source hmm files
+  - Supplementary_Data_Files: supplementary data files for Garber et al.
+      - Supplemental Data 1: Results log from DataMonkey version of HyPhy’s absREL and MEME. Contents include original fasta, log.txt, result.json, results tree, results table (if applicable), and results summary figure.
+      - Supplemental Data 2: Results log and output from ColabFold for PP_1066, PP_1066* (PP_1066_mut)  and PP3551* (PP_3551_mut).
+      - Supplemental Data 3: Results output from motif calling with orthologous RRs. Each tab contains data for each ortholog.
+      - Supplemental Data 4: Raw output from DAP-seq peak calling.
   - subclusterRR_files: parent and recombined REC domains in alphaproteobacteria, gammproteobacteria, and proteobacteria
   - TSNEoutput: static TSNE output used to find alphaproteobacteria subscluster
 - jupyter notebooks

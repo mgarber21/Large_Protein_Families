@@ -1,0 +1,148 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/Alphaproteobacteria_subcluster_noGerE.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 551154
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 14 sequences with 227 amino-acid sites
+Number of constant sites: 140 (= 61.674% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 140 (= 61.674% of all sites)
+Number of parsimony informative sites: 78
+Number of distinct site patterns: 101
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7603
+
+ Category  Relative_rate  Proportion
+  1         0.0871         0.2500
+  2         0.3906         0.2500
+  3         0.9453         0.2500
+  4         2.5769         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1952.8565 (s.e. 172.2709)
+Unconstrained log-likelihood (without tree): -660.3864
+Number of free parameters (#branches + #model parameters): 26
+Akaike information criterion (AIC) score: 3957.7130
+Corrected Akaike information criterion (AICc) score: 3964.7330
+Bayesian information criterion (BIC) score: 4046.7617
+
+Total tree length (sum of branch lengths): 5.8804
+Sum of internal branch lengths: 2.2160 (37.6841% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GCF_000421265.1-K355_RS0119855' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----------------------GCF_000421265.1-K355_RS0119855
+|
+|                          +--GCF_000423645.1-G568_RS0115095
+|                       +--| (84)
+|                       |  |  +--GCF_000169415.1-SSE37_RS16260
+|                       |  +--| (49)
+|                       |     +**GCF_900110775.1-BSF79_RS15930
+|                   +---| (90)
+|                   |   +---GCF_000442315.1-RUTHE_RS05685
+|     +-------------| (93)
+|     |             +------GCF_001870665.2-BG454_RS09765
++-----| (64)
+|     |                                            +-----GCF_000423645.1-G568_RS0108480
+|     |                                         +--| (72)
+|     |                                         |  +-----GCF_900110775.1-BSF79_RS18365
+|     |       +---------------------------------| (100)
+|     |       |                                 +---GCF_000169415.1-SSE37_RS08100
+|     |   +---| (65)
+|     |   |   |     +----------GCF_001687365.1-ADU59_RS12685
+|     |   |   +-----| (72)
+|     |   |         +----------------------------GCF_002208825.2-CEP68_RS17635
+|     +---| (53)
+|         |     +-------------GCF_001870665.2-BG454_RS16400
+|         +-----| (75)
+|               +---------GCF_001687365.1-ADU59_RS19520
+|
++-----------------GCF_000374005.1-B152_RS0108145
+
+Tree in newick format:
+
+(GCF_000421265.1-K355_RS0119855:0.5895602055,((((GCF_000423645.1-G568_RS0115095:0.0885066510,(GCF_000169415.1-SSE37_RS16260:0.0996373790,GCF_900110775.1-BSF79_RS15930:0.0000026361)49:0.0202843995)84:0.0720651574,GCF_000442315.1-RUTHE_RS05685:0.1192098957)90:0.1041895561,GCF_001870665.2-BG454_RS09765:0.1782660480)93:0.3614749676,((((GCF_000423645.1-G568_RS0108480:0.1658695788,GCF_900110775.1-BSF79_RS18365:0.1719577774)72:0.0720129092,GCF_000169415.1-SSE37_RS08100:0.1214608597)100:0.8773451766,(GCF_001687365.1-ADU59_RS12685:0.2823157101,GCF_002208825.2-CEP68_RS17635:0.7502454689)72:0.1625167828)65:0.1211151778,(GCF_001870665.2-BG454_RS16400:0.3648001798,GCF_001687365.1-ADU59_RS19520:0.2762852492)75:0.1586925933)53:0.1063374994)64:0.1599246775,GCF_000374005.1-B152_RS0108145:0.4562824625);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -1952.856518
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----------------------GCF_000421265.1-K355_RS0119855
+|
+|                          +--GCF_000423645.1-G568_RS0115095
+|                       +--| (84)
+|                       |  |  +--GCF_000169415.1-SSE37_RS16260
+|                       |  +--| (49)
+|                       |     +--GCF_900110775.1-BSF79_RS15930
+|                   +---| (90)
+|                   |   +---GCF_000442315.1-RUTHE_RS05685
+|     +-------------| (93)
+|     |             +------GCF_001870665.2-BG454_RS09765
++-----| (64)
+|     |                                            +-----GCF_000423645.1-G568_RS0108480
+|     |                                         +--| (72)
+|     |                                         |  +-----GCF_900110775.1-BSF79_RS18365
+|     |       +---------------------------------| (100)
+|     |       |                                 +---GCF_000169415.1-SSE37_RS08100
+|     |   +---| (65)
+|     |   |   |     +----------GCF_001687365.1-ADU59_RS12685
+|     |   |   +-----| (72)
+|     |   |         +----------------------------GCF_002208825.2-CEP68_RS17635
+|     +---| (53)
+|         |     +-------------GCF_001870665.2-BG454_RS16400
+|         +-----| (75)
+|               +---------GCF_001687365.1-ADU59_RS19520
+|
++-----------------GCF_000374005.1-B152_RS0108145
+
+
+Consensus tree in newick format: 
+
+(GCF_000421265.1-K355_RS0119855:0.5890761402,((((GCF_000423645.1-G568_RS0115095:0.0884089606,(GCF_000169415.1-SSE37_RS16260:0.0995488542,GCF_900110775.1-BSF79_RS15930:0.0000020855)49:0.0203034929)84:0.0720410894,GCF_000442315.1-RUTHE_RS05685:0.1191084910)90:0.1040915801,GCF_001870665.2-BG454_RS09765:0.1781756087)93:0.3609986324,((((GCF_000423645.1-G568_RS0108480:0.1658225112,GCF_900110775.1-BSF79_RS18365:0.1719061579)72:0.0720514508,GCF_000169415.1-SSE37_RS08100:0.1213497340)100:0.8769538029,(GCF_001687365.1-ADU59_RS12685:0.2822768802,GCF_002208825.2-CEP68_RS17635:0.7498022856)72:0.1625662058)65:0.1209361506,(GCF_001870665.2-BG454_RS16400:0.3646495337,GCF_001687365.1-ADU59_RS19520:0.2760799568)75:0.1588043671)53:0.1061269599)64:0.1603103260,GCF_000374005.1-B152_RS0108145:0.4559026607);
+
+TIME STAMP
+----------
+
+Date and time: Sun Sep 18 14:00:45 2022
+Total CPU time used: 12.267875 seconds (0h:0m:12s)
+Total wall-clock time used: 12.3588109 seconds (0h:0m:12s)
+

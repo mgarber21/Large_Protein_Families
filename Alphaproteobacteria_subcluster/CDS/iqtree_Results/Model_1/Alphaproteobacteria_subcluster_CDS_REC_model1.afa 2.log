@@ -1,0 +1,148 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    jupyter (AVX, FMA3, 503 GB RAM)
+Command: /opt/iqtree/iqtree-1.6.12-Linux/bin/iqtree -s /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa -m TVM+F+I+G4 -o GCF_000421265.1-K355_RS0117460 -redo -bb 1000
+Seed:    287934 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 18 15:52:08 2022
+Kernel:  AVX+FMA - 1 threads (64 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 64 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 24 sequences with 441 columns, 349 distinct patterns
+280 parsimony-informative, 56 singleton sites, 105 constant sites
+                                Gap/Ambiguity  Composition  p-value
+   1  GCF_000421265.1-K355_RS0117460   25.17%    passed     38.47%
+   2  GCF_000021325-1-GDIA_RS09815     25.17%    failed      0.45%
+   3  GCF_000017565-1-PLAV_RS12075     25.17%    passed     98.74%
+   4  GCF_000017565-1-PLAV_RS12070     25.17%    passed     20.86%
+   5  GCF_000017565-1-PLAV_RS11965     25.17%    passed     70.68%
+   6  GCF_000017565-1-PLAV_RS11955     25.17%    passed     62.05%
+   7  GCF_000017565-1-PLAV_RS10335     25.17%    passed     83.24%
+   8  GCF_000017565-1-PLAV_RS05525     25.17%    passed     17.18%
+   9  GCF_001687365-1-ADU59_RS05750    25.17%    passed     76.43%
+  10  GCF_000385335-1-A3OQ_RS0103935   25.17%    passed     97.81%
+  11  GCF_900168195-1-B5Y19_RS10715    25.17%    failed      1.49%
+  12  GCF_900168195-1-B5Y19_RS10675    25.17%    passed     24.10%
+  13  GCF_900168195-1-B5Y19_RS10665    25.17%    passed     27.53%
+  14  GCF_000374005-1-B152_RS0109090   25.17%    failed      0.22%
+  15  GCF_002208825-2-CEP68_RS27755    25.17%    passed     21.45%
+  16  GCF_000423645-1-G568_RS0115095   25.17%    passed     57.25%
+  17  GCF_900110775-1-BSF79_RS15930    25.17%    passed     15.43%
+  18  GCF_000169415-1-SSE37_RS16260    25.17%    passed     77.98%
+  19  GCF_000442315-1-RUTHE_RS05685    25.17%    passed     71.83%
+  20  GCF_001870665-2-BG454_RS09765    25.17%    passed     71.92%
+  21  GCF_001870665-2-BG454_RS16400    25.17%    passed     72.89%
+  22  GCF_001687365-1-ADU59_RS19520    25.17%    passed     89.80%
+  23  GCF_000421265-1-K355_RS0119855   25.17%    passed     30.02%
+  24  GCF_000374005-1-B152_RS0108145   25.17%    failed      0.00%
+****  TOTAL                            25.17%  4 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 287934)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.861 / LogL: -7550.571
+Init pinv, alpha: 0.026, 1.000 / Estimate: 0.085, 1.521 / LogL: -7540.227
+Init pinv, alpha: 0.053, 1.000 / Estimate: 0.085, 1.536 / LogL: -7540.212
+Init pinv, alpha: 0.079, 1.000 / Estimate: 0.087, 1.556 / LogL: -7540.203
+Init pinv, alpha: 0.106, 1.000 / Estimate: 0.088, 1.576 / LogL: -7540.201
+Init pinv, alpha: 0.132, 1.000 / Estimate: 0.089, 1.585 / LogL: -7540.204
+Init pinv, alpha: 0.159, 1.000 / Estimate: 0.090, 1.589 / LogL: -7540.204
+Init pinv, alpha: 0.185, 1.000 / Estimate: 0.088, 1.578 / LogL: -7540.194
+Init pinv, alpha: 0.212, 1.000 / Estimate: 0.089, 1.579 / LogL: -7540.194
+Init pinv, alpha: 0.238, 1.000 / Estimate: 0.089, 1.579 / LogL: -7540.194
+Optimal pinv,alpha: 0.089, 1.579 / LogL: -7540.194
+
+Parameters optimization took 1.176 sec
+Computing ML distances based on estimated model parameters... 0.008 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -7532.341
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.237 second
+Computing log-likelihood of 98 initial trees ... 0.877 seconds
+Current best score: -7526.217
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7519.527
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -7519.190
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -7519.161
+Iteration 10 / LogL: -7519.554 / Time: 0h:0m:3s
+Iteration 20 / LogL: -7519.169 / Time: 0h:0m:4s
+Finish initializing candidate tree set (13)
+Current best tree score: -7519.161 / CPU time: 3.116
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -7518.951
+Iteration 30 / LogL: -7518.951 / Time: 0h:0m:5s (0h:0m:18s left)
+Iteration 40 / LogL: -7519.267 / Time: 0h:0m:6s (0h:0m:14s left)
+Iteration 50 / LogL: -7519.051 / Time: 0h:0m:7s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -7546.482
+Iteration 60 / LogL: -7519.490 / Time: 0h:0m:8s (0h:0m:10s left)
+Iteration 70 / LogL: -7519.422 / Time: 0h:0m:9s (0h:0m:8s left)
+Iteration 80 / LogL: -7519.603 / Time: 0h:0m:10s (0h:0m:6s left)
+Iteration 90 / LogL: -7519.354 / Time: 0h:0m:11s (0h:0m:5s left)
+Iteration 100 / LogL: -7519.330 / Time: 0h:0m:12s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -7546.482
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -7519.268 / Time: 0h:0m:13s (0h:0m:11s left)
+Iteration 120 / LogL: -7518.959 / Time: 0h:0m:14s (0h:0m:10s left)
+Iteration 130 / LogL: -7519.285 / Time: 0h:0m:15s (0h:0m:8s left)
+TREE SEARCH COMPLETED AFTER 131 ITERATIONS / Time: 0h:0m:16s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7518.951
+Optimal log-likelihood: -7518.950
+Rate parameters:  A-C: 3.21151  A-G: 5.57763  A-T: 2.32723  C-G: 4.77290  C-T: 5.57763  G-T: 1.00000
+Base frequencies:  A: 0.202  C: 0.286  G: 0.303  T: 0.209
+Proportion of invariable sites: 0.087
+Gamma shape alpha: 1.597
+Parameters optimization took 1 rounds (0.022 sec)
+BEST SCORE FOUND : -7518.950
+Creating bootstrap support values...
+Split supports printed to NEXUS file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.splits.nex
+Total tree length: 11.644
+
+Total number of iterations: 131
+CPU time used for tree search: 14.762 sec (0h:0m:14s)
+Wall-clock time used for tree search: 14.781 sec (0h:0m:14s)
+Total CPU time used: 16.078 sec (0h:0m:16s)
+Total wall-clock time used: 16.107 sec (0h:0m:16s)
+
+Computing bootstrap consensus tree...
+Reading input file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.splits.nex...
+24 taxa and 244 splits.
+Consensus tree written to /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.contree
+Reading input trees file /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.contree
+Log-likelihood of consensus tree: -7519.193
+
+Analysis results written to: 
+  IQ-TREE report:                /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.iqtree
+  Maximum-likelihood tree:       /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.treefile
+  Likelihood distances:          /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.splits.nex
+  Consensus tree:                /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.contree
+  Screen log file:               /opt/jupyterhub/shared_notebooks/m-group/ALI/MG_stuff/RR_bioinformatics/TCSplayground/Alphaproteobacteria_subcluster/CDS/Alphaproteobacteria_subcluster_CDS_REC_model1.afa.log
+
+Date and Time: Thu Aug 18 15:52:24 2022
